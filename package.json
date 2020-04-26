@@ -1,10 +1,7 @@
 {
-	"name": "ninelines-template",
-	"version": "2.7.7",
-	"description": "Шаблон для разработки сайтов",
+	"name": "SidimDoma",
+	"version": "1.1.1",
 	"scripts": {},
-	"author": "Dmitry Artemov <d.artemov@9-lines.com>",
-	"license": "ISC",
 	"devDependencies": {
 		"@babel/core": "7.4.3",
 		"@babel/plugin-proposal-class-properties": "7.4.0",
@@ -59,6 +56,7 @@
 	},
 	"dependencies": {
 		"@babel/polyfill": "7.4.3",
+		"bootstrap": "^4.4.1",
 		"jquery": "3.4.0",
 		"ninelines-ua-parser": "1.1.6",
 		"normalize.css": "8.0.1",
