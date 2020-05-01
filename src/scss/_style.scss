@@ -1,3 +1,176 @@
-h1 {
-  color: red;
+.c-logo {
+  color: #58547e;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: -0.7px;
+  padding: 5px 0 5px 56px;
+  background: url('/images/icons/logo.png') no-repeat left center;
+  text-decoration: none;
+}
+
+.c-nav a {
+  color: #58547e;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 15px;
+  transition: all .2s;
+
+  &:hover {
+    color: #01cfbe;
+  }
+
+  i {
+    font-family: 'Linearicons', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+  }
+}
+
+.c-text {
+  color: #58547e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  &--header {
+    font-size: 21px;
+    line-height: 36px;
+    margin: 0 0 33px 0;
+  }
+}
+
+
+.c-subheading {
+  color: #01cfbe;
+  font-size: 18px;
+  font-weight: 500;
+  &--header {
+    font-size: 27px;
+    letter-spacing: -1.5px;
+    line-height: 72px;
+    font-weight: 700;
+  }
+}
+
+.c-heading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #58547e;
+  margin: 0 0 20px 0;
+  &--header {
+    font-size: 60px;
+    line-height: 72px;
+    margin: 0 0 22px 0;
+  }
+  &--small {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+  }
+}
+
+.c-link--arrow {
+  color: #01cfbd;
+  font-weight: 700;
+  line-height: 44px;
+  font-size: 16px;
+}
+
+.c-header {
+  min-height: 860px;
+  padding: 20px 0 0 0;
+  box-sizing: border-box;
+  background: url('/images/bg-header.jpg') no-repeat center top;
+
+  &--wrap {
+    margin-bottom: 55px;
+  }
+}
+
+.c-mini-header {
+  width: 50%;
+  position: relative;
+  padding: 0 0 0 60px;
+  margin: 28px 0;
+  box-sizing: border-box;
+
+  &--head {
+    color: #58547e;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  span {
+    color: #58547e;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+  }
+
+  &:nth-child(1) {
+    background: url('/images/icons/head-ico-1.png') no-repeat left;
+  }
+
+  &:nth-child(2) {
+    background: url('/images/icons/head-ico-2.png') no-repeat left;
+  }
+
+  &:nth-child(3) {
+    background: url('/images/icons/head-ico-3.png') no-repeat left;
+  }
+
+  &:nth-child(4) {
+    background: url('/images/icons/head-ico-4.png') no-repeat left;
+  }
+}
+
+.c-mini--wrap {
+  margin: 40px 0 0 0;
+}
+
+.c-purple-block {
+  box-shadow: 0 10px 40px rgba(51, 48, 78, 0.15);
+  background-color: #58547e;
+
+  &--text {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 55px 0 55px 200px;
+    background: url('/images/figure/virus-img.png') no-repeat left;
+
+    span {
+      display: block;
+      line-height: 36px;
+      color: #d0cced;
+      font-size: 18px;
+      font-weight: 500;
+      margin: 12px 0 0 0;
+    }
+  }
+}
+
+.c-about {
+  padding: 120px 0 190px;
+  overflow: hidden;
+
+  &--wrap {
+    position: relative;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 50vw;
+      height: 554px;
+      border-radius: 20px;
+      background-color: #f5f5f9;
+      position: absolute;
+      left: 70px;
+      top: -48px;
+      z-index: -1;
+    }
+  }
 }

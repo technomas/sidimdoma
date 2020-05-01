@@ -1,0 +1,45 @@
+.l-grid {
+  display: flex;
+
+  align-items: center;
+
+  &--top {
+    align-items: flex-start;
+  }
+
+  &--bottom {
+    align-items: flex-end;
+  }
+
+  &--stretch {
+    align-items: stretch;
+  }
+
+  &--content-between {
+    justify-content: space-between;
+  }
+
+  &--content-around {
+    justify-content: space-around;
+  }
+
+  &--content-center {
+    justify-content: center;
+  }
+
+  &--content-end {
+    justify-content: flex-end;
+  }
+
+  &--wrap {
+    flex-wrap: wrap;
+  }
+
+  &--no-wrap {
+    flex-wrap: nowrap;
+  }
+
+  &--grow-1 {
+    flex-grow: 1;
+  }
+}

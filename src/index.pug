@@ -4,9 +4,65 @@ append vars
 	//- ...
 
 block content
-	.container
-		.row
-			.col-6
-				h1 Заголовок
-			.col-6
-				h1 Заголовок12
+	header.c-header
+		.container
+			.row.c-header--wrap
+				.col-4
+					a(href="#").c-logo epidemic
+				.col
+					nav.c-nav
+						each nav in ['Home', 'About', 'Prevention', 'Appoiment', 'Blog', 'Contact']
+							a(href="#")= nav
+						a(href="#").c-btn.c-btn--header
+							i.c-ico
+							| Symptom Checker
+			.row
+				.col-8
+					span.c-subheading.c-subheading--header Stop COVID-19
+					h2.c-heading.c-heading--header How can we fight together against Coronavirus?
+					p.c-text.c-text--header
+						| It’s never been clearer that we’re all global citizens,
+						| and we all have a part to play. The novel strain of coronavirus, has officially reached pandemic proportions.
+					a(href="#").c-btn.c-btn--purple How to Prevent
+					.c-mini--wrap.l-grid.l-grid--wrap
+						.c-mini-header
+							i.c-ico--header
+							.c-mini-header--head Protection
+							span How to protect yourself
+						.c-mini-header
+							i.c-ico--header
+							.c-mini-header--head Symptoms
+							span Check basic symptoms
+						.c-mini-header
+							i.c-ico--header
+							.c-mini-header--head Appointment
+							span Get online consultation
+						.c-mini-header
+							i.c-ico--header
+							.c-mini-header--head About COVID-19
+							span Read more about coronavirus
+				.col-4
+					img(src="/images/figure/img-header.png")
+	section.c-purple-block
+		.container
+			.row
+				.col-8
+					.c-purple-block--text Think you might be affected?
+						span Try our simple coronavirus checker to find out what you need to do.
+				.col-4.d-flex.justify-content-end.align-items-center
+					a(href="#").c-btn.c-btn--white Check now
+	section.c-about
+		.container
+			.row
+				.col-6
+					img(src="/images/figure/img-about.png")
+				.col
+					.c-about--wrap
+						span.c-subheading COVID-19 the disease
+						h2.c-heading About the Coronavirus
+						p.c-text
+							| Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2. The disease was first identified in 2019 in Wuhan, the capital of Hubei, China, and has since spread globally, resulting in the 2019–2020 coronavirus pandemic.
+						h3.c-heading.c-heading--small What is the COVID-19?
+						p.c-text
+							| COVID-19 is a new strain of coronavirus that has not been previously identified in humans. It was first identified in Wuhan, Hubei Province, China, where it has caused a large and ongoing outbreak. It has since spread more widely in China.
+						a(href="#").c-link--arrow Read more about

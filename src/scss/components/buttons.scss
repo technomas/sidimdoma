@@ -1,0 +1,31 @@
+.c-btn {
+  display: inline-block;
+  height: 50px;
+  line-height: 49px;
+  border-radius: 10px;
+  background-color: #01cfbd;
+  padding: 0 30px;
+  position: relative;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+
+  &--header {
+    height: 45px;
+    line-height: 44px;
+    color: #FFF !important;
+  }
+
+  &--purple {
+    background-color: #58547e;
+    color: #ffffff;
+  }
+
+  &--white {
+    height: 55px;
+    line-height: 54px;
+    background-color: #ffffff;
+    color: #58547e;
+    padding: 0 55px;
+  }
+}
