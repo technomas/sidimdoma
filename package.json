@@ -60,6 +60,7 @@
 		"jquery": "3.4.0",
 		"ninelines-ua-parser": "1.1.6",
 		"normalize.css": "8.0.1",
+		"popper.js": "^1.16.1",
 		"svg4everybody": "2.1.9"
 	}
 }
